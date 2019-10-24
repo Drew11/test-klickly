@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/test-klickly/static/css/main.df6e0008.chunk.css",
+    "main.js": "/test-klickly/static/js/main.84a06fdf.chunk.js",
+    "main.js.map": "/test-klickly/static/js/main.84a06fdf.chunk.js.map",
+    "runtime-main.js": "/test-klickly/static/js/runtime-main.d4f1a2de.js",
+    "runtime-main.js.map": "/test-klickly/static/js/runtime-main.d4f1a2de.js.map",
+    "static/js/2.f690ff1f.chunk.js": "/test-klickly/static/js/2.f690ff1f.chunk.js",
+    "static/js/2.f690ff1f.chunk.js.map": "/test-klickly/static/js/2.f690ff1f.chunk.js.map",
+    "index.html": "/test-klickly/index.html",
+    "precache-manifest.b1f0dc4837c7ed958f57ff4855df6717.js": "/test-klickly/precache-manifest.b1f0dc4837c7ed958f57ff4855df6717.js",
+    "service-worker.js": "/test-klickly/service-worker.js",
+    "static/css/main.df6e0008.chunk.css.map": "/test-klickly/static/css/main.df6e0008.chunk.css.map",
+    "static/media/App.sass": "/test-klickly/static/media/ProximaNova-Regular.2d2ae255.woff",
+    "static/media/card-logos.svg": "/test-klickly/static/media/card-logos.426c254d.svg",
+    "static/media/header.sass": "/test-klickly/static/media/rectangle2x.1760472e.png",
+    "static/media/plante.jpg": "/test-klickly/static/media/plante.05d47c5c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4f1a2de.js",
+    "static/js/2.f690ff1f.chunk.js",
+    "static/css/main.df6e0008.chunk.css",
+    "static/js/main.84a06fdf.chunk.js"
+  ]
+}
