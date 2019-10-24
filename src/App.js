@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import useWindowDimensions from './helpers/useWindowDimensions';
+import './App.sass';
+
+import Header from './components/Header/Header';
+import CardsList from './components/CardsList/CardsList';
+import Info from './components/Info/Info';
+
+import MobileLayout from './components/MobileLayout/MobileLayout';
+
+
 
 function App() {
+
+  const { width } = useWindowDimensions();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        {
+            width<=500? <MobileLayout/>:
+
+                <React.Fragment>
+
+                    <Header/>
+
+                    <main>
+                        <CardsList/>
+                        <Info/>
+                    </main>
+
+                </React.Fragment>
+        }
+
     </div>
   );
 }

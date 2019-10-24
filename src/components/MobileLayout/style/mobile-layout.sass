@@ -1,0 +1,216 @@
+$pink-color: #da1781
+
+.container__mobile_layout
+  width: 300px
+  height: max-content
+  border: 1px solid
+  margin: 0 auto 30px
+
+.header
+  margin-top: 16px
+
+  span
+    display: block
+    text-align: center
+    font-weight: bold
+
+  span:nth-child(1)
+    margin-bottom: 14px
+    color: #4a4a4a
+    font-size: 20px
+
+  span:nth-child(2)
+    font-size: 22px
+    color: $pink-color
+    text-transform: uppercase
+    border: 1px dashed $pink-color
+    margin: 0 10px
+
+.content
+  .content__caption
+    display: block
+    margin: 36px 22px 0
+    font-size: 16px
+    line-height: 1.38
+    color: $pink-color
+    strong
+      color: $pink-color
+
+  .content__image
+    display: flex
+    align-items: center
+    flex-direction: column
+
+    img
+      margin-top: 30px
+      width: 225px
+      height: 225px
+      object-fit: cover
+
+    .circle__wrapper
+      display: flex
+      justify-content: center
+      margin-top: 5.5px
+
+      .circle
+        border-radius: 50%
+        width: 6px
+        height: 6px
+        margin-left: 6px
+
+      .gray
+        background-color: #c6c6c6
+
+      .white
+        border: 1px solid #c6c6c6
+
+  .content__super
+    display: block
+    margin: 0 12px
+
+  .content__super.tshirts
+    font-weight: bold
+    color: #4a4a4a
+    margin-top: 12px
+
+  .content__super.super
+    margin-top: 2px
+    font-size: 14px
+    color: #0baff0
+
+  .content__details
+    margin: 12px 12px 0
+    display: flex
+    span
+      display: block
+      font-size: 14px
+      text-transform: uppercase
+      letter-spacing: 0.54px
+      padding-bottom: 4px
+
+  .content__details-buy
+    width: 80px
+    font-weight: bold
+    text-align: center
+    color: $pink-color
+    border-bottom: 2px solid $pink-color
+
+  .content__details-details
+    width: calc(100% - 80px)
+    padding-left: 19px
+    font-size: 14px
+    text-transform: uppercase
+    border-bottom: 1px solid #e2e2e2
+
+  .price
+    margin: 14px 12px 0
+
+    .price__original
+      span
+        color: #4a4a4a
+      span:nth-child(2)
+        text-decoration: line-through
+
+    .price__deal
+      margin-top: 11px
+      margin-bottom: 7px
+      span
+        color: #4a4a4a
+      span:nth-child(2)
+        color: $pink-color
+        font-size: 18px
+        font-weight: bold
+
+    div
+      display: flex
+      margin-top: 4px
+
+      span
+        display: block
+        font-size: 14px
+        color: #c6c6c6
+
+      span:nth-child(2)
+        margin-left: auto
+
+
+.offer
+  margin-top: 20px
+
+  .offer__hurry
+    display: block
+    color: #4a4a4a
+    font-size: 18px
+    text-transform: uppercase
+    font-weight: bold
+    text-align: center
+
+  .offer__time-wrapper
+    display: flex
+    justify-content: center
+
+    .offer__time
+
+      span
+        display: block
+        text-align: center
+
+      span:nth-child(2)
+        color: #4a4a4a
+        font-size: 14px
+        text-transform: uppercase
+
+    .number
+      font-size: 40px
+      color: #4a4a4a
+      font-weight: bold
+
+.footer
+  margin: 12px 12px 0
+
+  span
+    font-size: 14px
+    margin-bottom: 8px
+    color: #4a4a4a
+    font-weight: bold
+    display: block
+
+  .footer__counter
+    display: flex
+
+    .counter
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-right: 9px
+      width: 35px
+      height: 35px
+      border: 1.4px solid #9b9b9b
+      color: #9b9b9b
+
+    .counter:nth-child(1),
+    .counter:nth-child(3)
+      cursor: pointer
+
+  .footer__btn-buy
+    width: 100%
+    height: 44px
+    margin-top: 31px
+    background-color: $pink-color
+    color: #ffffff
+    font-size: 20px
+    font-weight: bold
+    text-align: center
+    border: none
+    border-radius: 2px
+    outline: none
+    cursor: pointer
+
+  .footer__btn-buy:hover
+    background-color: deeppink
+
+  .no_thanks
+    display: block
+    margin: 7px 0 10px
+    color: #0baff0
+    text-align: center

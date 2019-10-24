@@ -1,0 +1,237 @@
+.card__form
+  height: 465px
+  border-left: 1px inset #da1781
+  border-right: 1px inset #da1781
+  border-bottom: 1px inset #da1781
+  border-bottom-left-radius: 4px
+  border-bottom-right-radius: 4px
+  transition: top 1s ease-out 0.5s
+
+.card__form-container
+  padding-top: 20px
+  margin: 0 20px
+
+  .card__form-card
+    display: flex
+  form
+    span:nth-child(1)
+      font-size: 14px
+      color: #4a4a4a
+      display: inline-block
+    span:nth-child(2)
+      margin-top: 35px
+      font-weight: bold
+      display: block
+      color: #4a4a4a
+    select[name="card"]
+      z-index: 11
+      background: rgba(0, 0, 0, 0)
+      margin-top: 30px
+      padding-left: 15px
+      outline: none
+      height: 36px
+      width: 196px
+      font-size: 14px
+      font-weight: bold
+      color: #354052
+      border-radius: 4px
+      border: solid 1px #ced0da
+      appearance: none
+
+    .card__form-card-wrapper
+      background-image: linear-gradient(to top, #f2f4f7, #ffffff)
+      border-radius: 4px
+      height: 36px
+      width: 196px
+      margin-top: 30px
+      position: relative
+      right: 220px
+    .card__form-card-dropdown
+      z-index: 10
+      display: flex
+      align-items: center
+      margin-top: 30px
+      border-left: 1px solid #ced0da
+      position: relative
+      right: 30px
+      width: 24px
+      height: 36px
+      background: rgba(0, 0, 0, 0)
+      .card__form-card-dropdown-arrow
+        position: relative
+        left: 10px
+        width: 6px
+        height: 6px
+        border-top: 1.5px solid #a8aab7
+        border-right: 1.5px solid #a8aab7
+        border-radius: 0.5px
+        transform: rotate(135deg)
+    div:nth-child(4)
+      margin-top: 30px
+      display: flex
+      span
+        float: left
+        text-transform: uppercase
+        display: flex
+        font-size: 14px
+        font-weight: bold
+        align-items: baseline
+        color: #9b9b9b
+      img
+        margin-left: auto
+
+    input[name="name"]
+      margin-top: 10px
+      padding-left: 14px
+      outline: none
+      width: 100%
+      height: 44px
+      border: 1px solid #c6c6c6
+      border-radius: 4px
+
+    div:nth-child(6)
+      margin-top: 19px
+      display: flex
+      .card__number
+        margin-right: 25px
+        span
+          display: block
+          margin-bottom: 13px
+          text-transform: uppercase
+          font-weight: bold
+          font-size: 12px
+          padding-left: 4px
+          color: #9b9b9b
+        input
+          font-size: 14px
+          width: 200px
+          height: 44px
+          padding-left: 14px
+          outline: none
+          border: 1px solid #c6c6c6
+          border-radius: 4px
+      .cvv
+        margin-right: 25px
+        span
+          display: block
+          text-transform: uppercase
+          font-weight: bold
+          font-size: 12px
+          padding-left: 4px
+          margin-bottom: 13px
+          color: #9b9b9b
+        input
+          width: 89px
+          height: 44px
+          padding-left: 14px
+          outline: none
+          border: 1px solid #c6c6c6
+          border-radius: 4px
+      .date
+        width: 100%
+        overflow: hidden
+        .date__select
+          margin-top: 13px
+          display: flex
+        span
+         font-weight: bold
+         font-size: 12px
+         display: block
+         color: #9b9b9b
+         text-transform: uppercase
+         padding-left: 4px
+
+      .date__month,
+      .date__year
+        position: relative
+        margin-left:  auto
+        display: flex
+        overflow: hidden
+        height: 44px
+        width: 110px
+
+        option[value="month"]
+          color: black
+
+        select[name="month"]
+          padding-left: 14px
+          z-index: 11
+          outline: none
+          height: 44px
+          min-width: 110px
+          font-size: 14px
+          font-weight: bold
+          color: #354052
+          border-radius: 4px
+          border: solid 1px #ced0da
+          background: rgba(0, 0, 0, 0)
+          appearance: none
+
+        select[name="year"]
+          width: 100%
+          height: 100%
+          z-index: 11
+          background: rgba(0, 0, 0, 0)
+          padding-left: 14px
+          outline: none
+          font-size: 14px
+          font-weight: bold
+          color: #354052
+          border-radius: 4px
+          border: solid 1px #ced0da
+          appearance: none
+
+      .date__year-dropdown
+        z-index: 10
+        display: flex
+        justify-content: center
+        align-items: center
+        position: absolute
+        right: 0
+        margin-right: auto
+        width: 24px
+        height: 44px
+        border-left: 1px solid #ced0da
+
+      .date__year-arrow
+        width: 6px
+        height: 6px
+        border-top: 1.5px solid #a8aab7
+        border-right: 1.5px solid #a8aab7
+        border-radius: 0.5px
+        transform: rotate(135deg)
+
+      .date__year-bgcolor
+        position: absolute
+        background-image: linear-gradient(to top, #f2f4f7, #ffffff)
+        height: 44px
+        width: 110px
+
+
+.form__button
+  display: flex
+  margin-top: 26px
+  margin-bottom: 6px
+
+.form__button-wrapper
+  margin-left: auto
+
+.button
+
+  width: 140px
+  height: 36px
+  outline: none
+  border-radius: 2px
+
+.cancel
+  background-color: #ffffff
+  border: solid 1px #c6c6c6
+  margin-right: 16px
+
+.save
+  background-color: #da1781
+  border: none
+  color: #ffffff
+
+
+
